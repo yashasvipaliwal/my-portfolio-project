@@ -1,0 +1,29 @@
+/* General settings for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header style */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* This is the magic for Responsiveness! */
+/* By default, sections are stacked vertically */
+section {
+    padding: 20px;
+}
+
+/* Media Query: When screen is larger than 768px (like tablets/desktops) */
+@media (min-width: 768px) {
+    main {
+        max-width: 800px;
+        margin: auto;
+    }
+}
